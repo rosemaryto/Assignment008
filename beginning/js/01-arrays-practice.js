@@ -87,21 +87,33 @@
 // movies.splice(8,9,'Dumb and Dumber', 'Harry Potter')
 
 //STEP 13
-let movies = [['Promising Young Woman',1], ['Gattaca',2], ['Clueless',3],['Speed',4],['Stardust',5]]
-
-// let topMov = movies.filter((movie) => {
-//     return typeof movie === 'string'
+// let movies = [['Promising Young Woman',1], ['Gattaca',2], ['Clueless',3],['Speed',4],['Stardust',5]]
+// movies.forEach(movie => {
+//     console.log(`${movie[0]}`)
 // })
-// console.log(topMov)
-let topMov = movies.map((movie) => {
-    return movie
-})
-console.log(topMov)
 
 //STEP 14
+// let employees = ['ZAK', 'JESSICA', 'MARK', 'FRED', 'SALLY']
+// console.log(`EMPLOYEES:\n\n`)
+// function showEmployee() {
+//     for (let employee of employees) {
+//         console.log(`${employee}\n`)
+//     }
+// }
+// showEmployee(employees)
 
 //STEP 15
+// let rand = [58,"","abcd",true,null,false,0]
+// const results = rand.filter(element => {
+//         return element !== null && element !== false && element !== 0 && element !== ""
+// })
+// console.log(results)
 
 //STEP 16
+// let numss = [9, 200, 30, 78, 100]
+// let random = Math.floor(Math.random() * numss.length)
+// console.log(numss[random])
 
 //STEP 17
+// let nums = [9, 200, 30, 78, 100]
+// console.log(Math.max(...nums))
